@@ -53,4 +53,5 @@ Flag: csictf{typ3_juggl1ng_1n_php}
 
 Resources:
 https://www.whitehatsec.com/blog/magic-hashes/
+
 https://derbenoo.github.io/cheat-sheet/2017/09/23/php/
