@@ -35,7 +35,8 @@ warning: Unable to access 16000 bytes of target memory at 0xf7faedda, halting se
 ```
 
 With all of this together our payload will be:
-(44 bytes junk) (4 byte system address we grabbed to overwrite eip) (4 bytes junk) (0xf7f4d352 - /bin/sh address)
+
+`(44 bytes junk) (4 byte system address we grabbed to overwrite eip) (4 bytes junk) (0xf7f4d352 - /bin/sh address)`
 
 I created a script to do just this (included with this writeup), and when I issued `cat /proc/flag`, we get the flag!
 
