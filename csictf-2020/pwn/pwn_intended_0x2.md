@@ -36,9 +36,9 @@ Dump of assembler code for function main:
 Which seemingly meant that `$rbp-0x4` had to be overwritten with hex 0xcafebabe
 
 
-Printing out $rbp-0x4 showed that it pointed to memory location 0x7fffffffdf7c.
+Printing out $rbp-0x4 showed that it pointed to memory location `0x7fffffffdf7c`.
 
-Upon printing the stack out it can be seen that the memory location where 0xcafebabe should be placed was
+Upon printing the stack out it can be seen that the memory location where `0xcafebabe` should be placed was
 44 bytes ahead in the stack.
 
 Now I simply called python to take care of overwriting the stack and inserting the appropriate bytes at the offset:
