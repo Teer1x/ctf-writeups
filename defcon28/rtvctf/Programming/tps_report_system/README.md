@@ -23,7 +23,7 @@ So we can filter any report numbers that result in the above message, and log an
 ```py
 from pwn import *
 
-for i in range(7384, 9999):
+for i in range(9999):
 	doc = f'TPS-{i:04}'
 	print(f'Testing doc {doc}')
 	conn = remote('161.35.239.216', 5000)
