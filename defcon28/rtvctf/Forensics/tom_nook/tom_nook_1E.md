@@ -1,4 +1,4 @@
-## Tom Nook 1D
+## Tom Nook 1E
 ### Writeup by Trent (teerix)
 
 Category: Forensics
